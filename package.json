@@ -1,0 +1,19 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "Examen Segundo Parcial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Santiago Illapa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "hbs": "^4.1.2",
+    "node-fetch": "^2.6.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

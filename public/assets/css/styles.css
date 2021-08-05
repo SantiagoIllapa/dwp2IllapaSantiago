@@ -1,0 +1,238 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*:hover {
+    cursor: default;
+}
+
+.texto_centro {
+    text-align: center;
+}
+
+.texto-derecha {
+    text-align: right;
+}
+
+header {
+    padding: 5% 5%;
+    background-image: url("/assets/img/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
+.txt-titulo2 {
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vmax;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.txt-titulo3 {
+    color: #78866b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmax;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.txt-descripcion {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vmax;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.txtblack {
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+}
+
+.txt-titulo {
+    color: #78866b;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vmax;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.btn {
+    width: auto;
+    background-color: #313130b0;
+    color: white;
+    font-size: 2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 1px 0px #070707c0;
+    padding: 0 1.5vmax;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5% 3%;
+    text-shadow: 1px 1px 2px black;
+}
+
+.btn:hover {
+    background: rgba(245, 245, 245, 0.979);
+    color: #313130b0;
+    cursor: pointer;
+    transform: scale(1.05);
+    text-shadow: none;
+    box-shadow: 1px 1px 1px 1px #070707c0;
+}
+
+.btn-white {
+    background: rgba(245, 245, 245, 0.979);
+    color: #313130b0;
+    text-shadow: none;
+}
+
+#encabezado {
+    display: flex;
+    justify-content: center;
+}
+
+#descripcion-section {
+    margin: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgDec {
+    width: 25vmax;
+    border: 5px solid #313130b0;
+    border-radius: 15px;
+}
+
+#imagen-box {
+    margin: 2.5%;
+}
+
+.txt-titulo1 {
+    font-size: 2.5vmax;
+    font-style: bold;
+    font-weight: bold;
+}
+
+#descripcion-box {
+    width: 25%;
+    margin: 2.5%;
+}
+
+#catalogo {
+    background-color: #313131;
+    padding: 2.5%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#descripcion-producto {
+    margin: 2.5%;
+    width: 25%;
+}
+
+#productos-section {
+    margin: 2.5%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.producto {
+    margin: 1%;
+    width: 25%;
+}
+
+.txt-producto {
+    padding: 2.5%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5vmax;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.txt-valor {
+    padding: 2.5%;
+    margin-left: 5%;
+    color: #78866b;
+    font-weight: bold;
+    font-size: 1.75vmax;
+}
+
+.ImagenProducto {
+    display: block;
+    margin: auto;
+    border: 5px solid #ffffffb0;
+    border-radius: 15px;
+    width: 15vmax;
+}
+
+#contacto-section {
+    margin: 2.5%;
+    padding: 1%;
+}
+
+.contacto {
+    margin: 2.5%;
+}
+
+.txt-Contacto {
+    color: #78866b;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vmax;
+}
+
+.txt-link {
+    font-size: 1.5vmax;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+footer {
+    padding: 2.5%;
+    background-color: #313131;
+    text-align: center;
+    color: white;
+    font-size: 1.5vmax;
+}
+
+@media only screen and (max-width:290px) {
+    #descripcion-section {
+        display: grid;
+        justify-content: center;
+        padding: 5% 0 5%;
+    }
+    #descripcion-box {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width:465px) {
+    #productos-section {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:305px) {
+    #catalogo {
+        display: grid;
+        justify-content: center;
+        padding: 5% 0 5%;
+    }
+    #descripcion-producto {
+        width: auto;
+    }
+}
