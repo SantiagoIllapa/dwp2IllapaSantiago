@@ -2,16 +2,16 @@
     {
         "name": "Juego de Comedor",
         "precio": "450",
-        "url":"assets/img/ImagesTienda/Mesa.jpg"
+        "url":"/assets/img/ImagesTienda/Mesa.jpg"
     },
     {
         "name": "Armario de Madera",
         "precio": "150",
-        "url":"assets/img/ImagesTienda/Armario.jpg"
+        "url":"/assets/img/ImagesTienda/Armario.jpg"
     },
     {
         "name": "Juego de Sala",
-        "precio": "450",
-        "url":"assets/img/ImagesTienda/Sala.jpg"
+        "precio": "250",
+        "url":"/assets/img/ImagesTienda/Sala.jpg"
     }
 ]
