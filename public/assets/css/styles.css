@@ -134,15 +134,18 @@ header {
 }
 
 #productos-section {
-    margin: 2.5%;
+    margin: 2.5% auto;
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .producto {
-    margin: 1%;
-    width: 25%;
+    margin: 2.5%;
 }
 
 .txt-producto {
@@ -217,12 +220,6 @@ footer {
     }
     #descripcion-box {
         width: auto;
-    }
-}
-
-@media only screen and (max-width:465px) {
-    #productos-section {
-        display: block;
     }
 }
 
